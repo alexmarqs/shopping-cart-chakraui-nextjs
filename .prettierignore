@@ -1,0 +1,10 @@
+# Ignore
+.next
+.vercel
+.vscode
+.github
+build
+coverage
+node_modules
+styles
+public

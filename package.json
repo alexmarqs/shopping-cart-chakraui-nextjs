@@ -1,0 +1,30 @@
+{
+  "name": "shopping-cart-chakraui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write --ignore-unknown --no-error-on-unmatched-pattern ./**/*.{ts,tsx,js,jsx,md,json}",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^4",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.4.1",
+    "typescript": "4.4.3"
+  }
+}
